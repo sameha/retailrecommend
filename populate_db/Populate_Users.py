@@ -18,4 +18,3 @@ with open('../Resources/Datasets/AmazonCSV/users_first100k_reviews.csv','rU') as
     readCSV = csv.reader(csvfile, delimiter=',')
     for row in readCSV:
         user = User.objects.create_user(row[0], 'a@e.com', 'userpass')
-

@@ -83,7 +83,7 @@ def user_recommendation_list(request):
 
 
     # get reviews by those users, excluding electronics reviewed by the request user
-    other_users_reviews = Review.objects.filter(user_name__in=other_members_usernames).exclude(electronic__id__in=user_reviews_electronic_ids)
+    other_users_reviews = Review.objects.filter(user_name__in=other_members_usernames).exclude(electronic__id__in=user_reviews_electronic_ids)[:5]
     other_users_reviews_electronic_ids = set(map(lambda x: x.electronic.id, other_users_reviews))
 
     # then get an electronic list including the previous IDs, order by rating
