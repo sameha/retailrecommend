@@ -27,17 +27,17 @@ This taks include:
 
 In this project, we have created a  collaborative filtering recommender system that can help users to come across interesting items. It uses data mining and information filtering techniques. The collaborative filtering creates suggestions for users based on their neighbors' preferences. It uses k-means clustering algorithm to categorize users based on their interests. 
 
-I have used a subset of the [Amazon product data]('http://jmcauley.ucsd.edu/data/amazon/links.html') for my data. Specifically, I have used about 100,000 products from their electronic section, as well as about 60,000 users who made reviews on these products.
+I have used a subset of the [Amazon product data](http://jmcauley.ucsd.edu/data/amazon/links.html) for my data. Specifically, I have used about 100,000 products from their electronic section, as well as about 60,000 users who made reviews on these products.
 
-The project uses [Django]('https://www.djangoproject.com/') for the web-based services, [Bootstrap]('getbootstrap.com') for developing a responsive web project with a better user experince, and the [scikit-learn Python]('http://scikit-learn.org/stable/') library for K-Means Clustering.
+The project uses [Django](https://www.djangoproject.com) for the web-based services, [Bootstrap](getbootstrap.com) for developing a responsive web project with a better user experince, and the [scikit-learn Python](http://scikit-learn.org/stable) library for K-Means Clustering.
 
 ### Demo
 
-- You can check my [demo website]('http://sameh.pythonanywhere.com/reviews/') to see the project works in more details.
+- You can check my [demo website](http://sameh.pythonanywhere.com/reviews/) to see the project works in more details.
 
-- Click on the [Electronic List]('http://sameh.pythonanywhere.com/reviews/electronic') to see the full list of the electronics in the project (Might take a while to load).
+- Click on the [Electronic List](http://sameh.pythonanywhere.com/reviews/electronic) to see the full list of the electronics in the project (Might take a while to load).
 
-- Click on [Login]('http://sameh.pythonanywhere.com/accounts/login/') to check some of the recommendations. You can try any username, for example:
+- Click on [Login](http://sameh.pythonanywhere.com/accounts/login/) to check some of the recommendations. You can try any username, for example:
     - AOV5BX24NBV29
     - ARL3CPERF67ZL
     - ACSX5AIZE3MJ9
@@ -45,5 +45,5 @@ The project uses [Django]('https://www.djangoproject.com/') for the web-based se
     - A17JE4HESSQ1NA
 They all have the same password, which is 'userpass'.
 
-- Then click on the [Electronic Suggestions]('http://sameh.pythonanywhere.com/reviews/recommendation/') button to check 5 recommendations for that user.
+- Then click on the [Electronic Suggestions](http://sameh.pythonanywhere.com/reviews/recommendation/) button to check 5 recommendations for that user.
 
